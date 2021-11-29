@@ -1,0 +1,126 @@
+.products{
+    max-width:1300px;
+    margin:1rem auto;
+    display: flex;
+    min-height: 60vh;
+}
+.products-left{
+    display:flex;
+    flex:0.7;
+    
+}
+
+.left-image{
+    margin:1rem;
+    flex:0.3;
+}
+.left-info{
+    margin:1rem;
+    flex:0.7;
+    background:#fff;
+    height:fit-content;
+    font-size:0.9rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);   
+}
+
+.left-info > p,
+.right-info > p{
+  font-size:1rem;
+    padding:1rem;
+    border-bottom:1px solid rgba(0,0,0,0.2)
+
+}
+.left-name{
+    font-weight: bold;
+    font-size:1.3rem;
+}
+.left-price,.right-price{
+    font-weight: bold;
+    color:#b12704;
+}
+.left-info >p:last-child,
+.right-info>p:last-child{
+    border:none;
+}
+.quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:1rem;
+    align-items: center;
+}
+/* .quantity button{
+    padding:5px;
+    display: flex;
+    flex:0.2;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    border:1px solid;    
+} */
+/* .quantity .decrement:hover{
+    background: red;
+    color:white
+}
+.quantity .increment:hover{
+    background: green;
+    color:white
+} */
+
+.products-right{
+    display:flex;
+    flex:0.3;
+    height:max-content;
+    
+
+}
+.right-info{
+    width:250px;
+    margin:1rem;
+    background:#fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+.right-info>p{
+    padding:1rem;
+    font-size:1rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.right-info p > button{
+    grid-column:1/-1;
+    padding:10px 16px;    
+    color:#171717;
+    cursor: pointer;
+    border:1px solid #171717;
+    border-radius: 8px;
+    transition: 0.2s ease-out
+}
+.right-info p > button:hover{
+    background:rgb(255, 195, 84);
+  
+}
+.right-info select{
+    padding:10px 16px;
+}
+
+@media (max-width:960px) {
+    .products{
+        flex-direction: column;
+    }
+    .products-left{
+        flex-direction: column;
+        flex:1
+    }
+    .left-image{
+        flex:1
+    }
+    .left-info{
+        flex: 1;
+    }
+    .right-info{
+        flex: 1;
+    }
+}

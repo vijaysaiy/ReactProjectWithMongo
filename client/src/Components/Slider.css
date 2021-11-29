@@ -1,0 +1,33 @@
+.container-slider {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+  z-index: -1;
+  margin-bottom: -380px;
+  
+}
+.home-image {
+  max-width: 1500px;  
+  mask-image: linear-gradient(to bottom, black 25%,transparent 65%);
+}
+@media (max-width:1232px){
+  .home-image {
+    max-width: 1500px;  
+       
+   }
+ }
+ 
+ @media (max-width:950px){
+  .home-image {
+    max-width: 1500px;
+      
+   }
+ }
+ @media (max-width:600px){
+  .home-image {
+   
+    max-width: 1500px;
+   }
+     
+ }
+

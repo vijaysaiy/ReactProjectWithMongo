@@ -1,0 +1,38 @@
+[
+   {
+      "id": "1",
+       "description": "Celebrate everyday with new offers" ,
+       "imgSrc":"images/home/celebrate.jpg"
+    },
+   {
+      "id": "2",
+      "description": "Up to 40% off | Mobiles & accessories" ,
+      "imgSrc":"images/home/img1.jpg"
+   },
+   {
+      "id": "3",
+       "description": "Best Deals On Tvs" ,
+       "imgSrc":"images/home/img2.jpg"
+    },
+    {
+       "id": "4",
+       "description": "Great Offers on First Purchase" ,
+       "imgSrc":"images/home/welcomeoffer.jpg"
+    },
+    {
+       "id": "5",
+       "description": "Save up to ₹5,000 on shopping" ,
+       "imgSrc":"images/home/save50per.jpg"
+    },
+   
+    {
+       "id":"6",
+       "description": "Up to 50% off | Top offers on Book bazaar" ,
+       "imgSrc":"images/home/books.jpg"
+    },
+    {
+       "id":"7",
+       "description": "Up to 60% off | Refurbished products from top brandsr" ,
+       "imgSrc":"images/home/refurbish.jpg"
+    }
+]
